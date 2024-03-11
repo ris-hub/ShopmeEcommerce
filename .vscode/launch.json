@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ShopmeBackEndApplication<ShopmeBackEnd>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.shopme.admin.ShopmeBackEndApplication",
+      "projectName": "ShopmeBackEnd",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ShopmeFrontEndApplication<ShopmeFrontEnd>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.shopme.ShopmeFrontEndApplication",
+      "projectName": "ShopmeFrontEnd",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
